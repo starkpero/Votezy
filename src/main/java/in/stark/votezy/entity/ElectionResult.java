@@ -28,7 +28,7 @@ public class ElectionResult {
     }
 
     @JsonProperty("candidateName")
-    public String getCandidateName(){
+    public String getWinnerName(){
         return winner!=null? winner.getName():null;
     }
 
